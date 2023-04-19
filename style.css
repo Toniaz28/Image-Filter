@@ -1,0 +1,61 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container .menu{
+    padding-top:30px;
+}
+
+.container .menu h2{
+    color:gray;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .menu a{
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: gray;
+    margin: 10px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.store-item{
+    display: flex;
+    width: 300px;
+    padding: 1rem;
+}
+
+.store-item img{
+    width: 250px;
+    height: 250px;
+   
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
